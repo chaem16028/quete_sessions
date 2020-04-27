@@ -2,7 +2,7 @@
 
 
 if (!isset($_SESSION['nom'])){
-    header('Location: http://localhost:5000/login.php');
+    header('Location: /index.php');
 }
 
 

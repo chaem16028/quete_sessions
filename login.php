@@ -3,7 +3,7 @@
 if (isset($_POST['loginname']) && !empty($_POST['loginname'])){
     
     $_SESSION['nom']=$_POST['loginname'];
-    header('Location: http://localhost:5000/index.php');
+    header("Location: index.php");
 }
 
 
