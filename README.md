@@ -11,3 +11,7 @@ Sont inclus :
 Tu n'as que du script PHP à fournir !
 
 Après, si l'envie te prend de refondre le CSS, nous ne ferons rien pour t'en empêcher !
+
+
+
+UTILISATION DU LOCALHOST : 5000

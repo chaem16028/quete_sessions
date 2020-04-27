@@ -1,5 +1,25 @@
 <?php require 'inc/data/products.php'; ?>
 <?php require 'inc/head.php'; ?>
+
+<?php 
+
+if (!isset($_SESSION['nom'])){
+    header('Location: http://localhost:5000/login.php');
+}
+
+
+
+foreach ($catalog as $id => $cookie){
+    if ($id==$_GET['add_to_cart']){
+        $_SESSION['name']=$cookie['name'];
+        $_SESSION['description']=$cookie['description'];
+    }
+
+
+}
+
+?>
+
 <section class="cookies container-fluid">
     <div class="row">
         <?php foreach ($catalog as $id => $cookie) { ?>
