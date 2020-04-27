@@ -6,7 +6,9 @@ if (isset($_POST['loginname']) && !empty($_POST['loginname'])){
     header("Location: index.php");
 }
 
-
+if (isset($_SESSION['nom'])){
+    header("Location: index.php");
+}
 
 
 
